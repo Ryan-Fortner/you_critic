@@ -14,7 +14,7 @@ To run Python Application cd into sql_alch folder and run following commands in 
 ------------------------------------------------------------------
 (py3SQLAlchemyEnv) pip install flask-migrate
 ------------------------------------------------------------------
-(py3SQLAlchemyEnv) first_orm_app$ flask db migrate
+(py3SQLAlchemyEnv) flask db migrate
 ------------------------------------------------------------------
-(py3SQLAlchemyEnv) first_orm_app$ flask db upgrade
+(py3SQLAlchemyEnv) flask db upgrade
 ------------------------------------------------------------------
