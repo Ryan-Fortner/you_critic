@@ -1,0 +1,234 @@
+/* start: body styles */
+body {
+  padding: 20px;
+  background: url('../static/images/projector1.jpg') center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+/* start: main styles */
+#movie {
+  padding: 15px;
+}
+
+#movie h4 {
+  color: #000;
+}
+
+#tagline {
+  color: whitesmoke !important;
+}
+
+#info {
+  padding: 25px !important;
+}
+
+#reviews {
+  color: #000;
+}
+
+.navbar {
+
+  background-color: blueviolet
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: rgb(76, 29, 119);
+}
+
+.containercontent-section {
+  padding-top: 100px;
+}
+
+.container h1,
+h2,
+h3,
+h5,
+p,
+label {
+  color: whitesmoke;
+}
+
+.container h3 #plot {
+  color: whitesmoke;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+tr {
+  color: whitesmoke;
+}
+
+.review {
+  color: whitesmoke;
+}
+
+/* end: main styles */
+
+/* start: footer styles */
+
+#personal_footer {
+  position: absolute;
+  right: 0px;
+  width: 125px;
+}
+
+
+footer {
+  background-color: rgb(76, 29, 119);
+  padding: 8rem 0;
+}
+
+footer .flex {
+  padding-bottom: 6rem;
+  border-bottom: 1px solid whitesmoke;
+}
+
+footer h5 {
+  color: whitesmoke;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+footer h5.follow-us {
+  margin-top: 1rem;
+}
+
+footer .footer-about {
+  width: 47%;
+  color: whitesmoke;
+}
+
+footer .footer-about p {
+  width: 65%;
+}
+
+footer .footer-quick-links {
+  width: 16%;
+}
+
+footer .footer-quick-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: whitesmoke;
+}
+
+footer .footer-quick-links ul li {
+  margin: 10px 0;
+}
+
+footer .footer-quick-links ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer .footer-quick-links ul li a:hover {
+  color: #fff;
+}
+
+footer .footer-subscribe {
+  width: 35%;
+}
+
+#subscribe-container {
+  position: relative;
+}
+
+footer .footer-subscribe input {
+  border-radius: 30px;
+  height: 43px;
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  width: 80%;
+}
+
+footer button.right-rounded {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: whitesmoke;
+  font-size: 16px;
+  color: #000;
+  padding: 10px 30px 9px;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+footer button.right-rounded:hover {
+  background: violet;
+}
+
+footer .footer-subscribe ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-subscribe ul li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+footer .footer-subscribe ul li:first-child {
+  margin-left: 0;
+}
+
+footer .footer-subscribe ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer .footer-subscribe ul li a:hover {
+  color: whitesmoke;
+}
+
+footer small {
+  margin-top: 3rem;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer small a {
+  color: rgb(173, 173, 173);
+  text-decoration: none;
+}
+
+footer small a:hover {
+  color: #fff;
+}
+
+#moviedblogo {
+  width: 125px;
+}
+
+/* end: footer styles */
