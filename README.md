@@ -10,9 +10,9 @@ To run Python Application cd into sql_alch folder and run following commands in 
 ------------------------------------------------------------------
 | Windows git bash : | source py3SQLAlchemyEnv/Scripts/activate         
 ------------------------------------------------------------------
-(py3SQLAlchemyEnv) $ pip install flask-sqlalchemy
+(py3SQLAlchemyEnv) pip install flask-sqlalchemy
 ------------------------------------------------------------------
-(py3SQLAlchemyEnv) $ pip install flask-migrate
+(py3SQLAlchemyEnv) pip install flask-migrate
 ------------------------------------------------------------------
 (py3SQLAlchemyEnv) first_orm_app$ flask db migrate
 ------------------------------------------------------------------
